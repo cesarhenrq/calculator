@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main id="calculator">
+    <div id="screen"> </div>
+    
+    <button id='clearButton' onclick="clearScreen()">C</button>
+    
+    <button id='eraserButton' onclick='eraser()'>Apagar</button>
+    
+    <button id='sumButton' class='operation' value='+' onclick="addValue('sumButton')">+</button>
+    
+    <button id='oneButton' class='number' value="1" onclick="addValue('oneButton')">1</button>
+    
+    <button id='twoButton' class='number' value="2" onclick="addValue('twoButton')">2</button>
+    
+    <button id='threeButton' class='number' value="3" onclick="addValue('threeButton')">3</button>
+    
+    <button id='minusButton' class='operation' value='-' onclick="addValue('minusButton')">-</button>
+    
+    <button id='fourButton' class='number' value="4" onclick="addValue('fourButton')">4</button>
+    
+    <button id='fiveButton' class='number' value="5" onclick="addValue('fiveButton')">5</button>
+    
+    <button id='sixButton' class='number' value="6" onclick="addValue('sixButton')">6</button>
+    
+    <button id='multiplicationButton' class='operation' value='*' onclick="addValue('multiplicationButton')">×</button>
+    
+    <button id='sevenButton' class='number' value="7" onclick="addValue('sevenButton')">7</button>
+    
+    <button id='eigthButton' class='number' value="8" onclick="addValue('eigthButton')">8</button>
+    
+    <button id='nineButton' class='number' value="9" onclick="addValue('nineButton')">9</button>
+    
+    <button id='divisionButton' class='operation' value='/' onclick="addValue('divisionButton')">÷</button>
+    
+    <button id='zeroButton' class='number' value="0" onclick="addValue('zeroButton')">0</button>
+    
+    <button id='dotButton' value='.'onclick="addValue('dotButton')">.</button>
+    
+    <button id='resultButton' onclick="result()">=</button>
+  </main>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

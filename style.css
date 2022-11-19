@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0
+}
+
+button {
+  border-radius: 5px;
+}
+
+#calculator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: space-between;
+  padding: 1em;
+  margin: auto;
+  margin-top: 10px;
+  background-color: black;
+  width: 30%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#screen {
+  width: 100%;
+  height: 20px;
+  border: solid 1px white;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px white
+}
+
+#clearButton {
+  width: 50%
+}
+
+#eraserButton {
+  width: 25%;
+}
+
+.number {
+  width: 25%
+}
+
+.operation {
+  width: 25%
+}
+
+#dotButton {
+  width: 25%
+}
+
+#resultButton {
+  width: 50%;
+}
+
